@@ -134,7 +134,7 @@ while missed < maxGuesses and guessed.lower() != word:
 
     giveAnswer = input("Chcesz podac całe słowo?(Y/N): ")
 
-    if giveAnswer == "Y":
+    if giveAnswer == "Y" or giveAnswer == "y":
         wholeWord = input("Podaj słowo: ")
         if wholeWord == word:
             print("Hurra zgadłeś!")
